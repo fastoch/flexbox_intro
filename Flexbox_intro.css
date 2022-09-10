@@ -1,1 +1,16 @@
+/* Dave Gray CSS Tuto 14/26 */
 /* https://youtu.be/B8BFVzbKmPI?t=2 */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  min-height: 100vh;
+  padding: 20px;
+}
