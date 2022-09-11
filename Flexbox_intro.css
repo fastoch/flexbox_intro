@@ -22,14 +22,17 @@ body {
   /* center the container horizontally */
   margin-inline: auto;
   border: 1px solid #000;
+  /* make it a flex container */
   display: flex;
-  justify-content: center;
-  gap: 1rem;
+  /* position the flex items horizontally */
+  justify-content: space-between;
+  /* position the flex items vertically */
+  align-items: center;
 }
 
 .box {
   min-width: 100px;
-  min-height: 100px;
+  height: 100px;
   background-color: #000;
   color: #fff;
   font-size: 2rem;
